@@ -1,6 +1,8 @@
 import getcwd
 from Base.log import log1
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 import time
 import os
 
@@ -35,7 +37,7 @@ class BasePase():
                 elif by == 'xpath':
                     element = self.driver.find_element_by_xpath(value)
                 else:
-                    log1.error('没有找到元素')
+                    log1.error('没有找到元素，定位方式:%s,使用的是：%'%(by,value))
                 return element
             except NoSuchElementException:
                 log1.error("报错信息：")
@@ -46,6 +48,18 @@ class BasePase():
     def isdisplayed(element):
         value = element.isdisplayed()
         return value
+
+    def is_element_exsist(self, selector):
+        '''
+           结合WebDriverWait和expected_conditions判断元素是否存在,
+           每间隔1秒判断一次，20s超时，存在返回True,不存返回False
+        '''
+        try:
+            WebDriverWait(self.driver, 20, 1).until(EC.presence_of_element_located(selector))
+            return True
+        except Exception as msg:
+            log1.info("元素找不到：%s" % (selector, msg))
+            return False
 
     @staticmethod
     def sleep(secondes):

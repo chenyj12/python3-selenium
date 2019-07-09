@@ -1,0 +1,32 @@
+2019-07-09 16:11:36,773 - selenium - INFO - 选择的浏览器类型为：Chrome
+2019-07-09 16:11:39,052 - selenium - INFO - Starting Chrome browser.
+2019-07-09 16:11:40,174 - selenium - INFO - Maximize the current window.
+2019-07-09 16:11:40,175 - selenium - INFO - Set implicitly wait 10 seconds.
+2019-07-09 16:11:40,175 - selenium - INFO - -----执行登录操作-----
+2019-07-09 16:11:43,823 - selenium - INFO - 输入的内容：
+2019-07-09 16:11:43,885 - selenium - INFO - 输入的内容：12323
+2019-07-09 16:11:43,935 - selenium - INFO - 点击元素成功
+2019-07-09 16:11:43,935 - selenium - INFO - -----检查登录信息-----
+2019-07-09 16:11:53,948 - selenium - ERROR - 报错信息：
+2019-07-09 16:11:54,351 - selenium - INFO - -----执行登录操作-----
+2019-07-09 16:11:57,092 - selenium - INFO - 输入的内容：gadmin
+2019-07-09 16:11:57,138 - selenium - INFO - 输入的内容：
+2019-07-09 16:11:57,177 - selenium - INFO - 点击元素成功
+2019-07-09 16:11:57,178 - selenium - INFO - -----检查登录信息-----
+2019-07-09 16:12:07,217 - selenium - ERROR - 报错信息：
+2019-07-09 16:12:07,603 - selenium - INFO - -----执行登录操作-----
+2019-07-09 16:12:10,440 - selenium - INFO - 输入的内容：gadmin
+2019-07-09 16:12:10,496 - selenium - INFO - 输入的内容：123456
+2019-07-09 16:12:10,693 - selenium - INFO - 点击元素成功
+2019-07-09 16:12:10,693 - selenium - INFO - -----检查登录信息-----
+2019-07-09 16:12:20,761 - selenium - ERROR - 报错信息：
+2019-07-09 16:12:21,140 - selenium - INFO - -----执行登录操作-----
+2019-07-09 16:12:23,794 - selenium - INFO - 输入的内容：gadmin
+2019-07-09 16:12:23,851 - selenium - INFO - 输入的内容：admin123
+2019-07-09 16:12:24,284 - selenium - INFO - 点击元素成功
+2019-07-09 16:12:24,284 - selenium - INFO - -----检查登录信息-----
+2019-07-09 16:12:24,666 - selenium - INFO - 获取的text：admin
+2019-07-09 16:12:24,666 - selenium - INFO - 已登录，账号为admin
+2019-07-09 16:12:24,666 - selenium - INFO - 测试用例执行成功：用户名和密码正确
+
+2019-07-09 16:12:24,666 - selenium - INFO - -----退出浏览器-----

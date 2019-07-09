@@ -1,0 +1,11 @@
+2019-07-09 16:20:59,250 - selenium - INFO - 选择的浏览器类型为：Chrome
+2019-07-09 16:21:02,935 - selenium - INFO - Starting Chrome browser.
+2019-07-09 16:21:04,054 - selenium - INFO - Maximize the current window.
+2019-07-09 16:21:04,055 - selenium - INFO - Set implicitly wait 10 seconds.
+2019-07-09 16:21:04,056 - selenium - INFO - -----执行登录操作-----
+2019-07-09 16:21:09,054 - selenium - INFO - 输入的内容：
+2019-07-09 16:21:09,119 - selenium - INFO - 输入的内容：12323
+2019-07-09 16:21:09,167 - selenium - INFO - 点击元素成功
+2019-07-09 16:21:09,167 - selenium - INFO - -----检查登录信息-----
+2019-07-09 16:21:19,199 - selenium - ERROR - 报错信息：
+2019-07-09 16:21:19,204 - selenium - INFO - -----退出浏览器-----

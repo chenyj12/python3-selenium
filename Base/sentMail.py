@@ -58,7 +58,7 @@ def send_mail(newfile):
     smtp.helo(smtpserver)
     smtp.ehlo(smtpserver)
     smtp.login(user, password)
-    log1.info("开始发送测试报告邮件")
     smtp.sendmail(sender, receivers, msg.as_string())
+    log1.info("开始发送测试报告邮件")
     smtp.quit()
     log1.info("测试报告邮件发送完成")

@@ -12,8 +12,6 @@ class BrowserEngine(object):
     def __init__(self, driver):
         self.driver = driver
 
-
-
     # 从config.ini文件中读取浏览器类型，返回driver
     def open_browser(self, driver):
         config = ConfigParser()
