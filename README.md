@@ -10,3 +10,7 @@ python3+selenium ui自动化测试
 * Report 测试报告目录
 * Page 页面元素映射和页面对象 
 * run_all.py 测试运行脚本
+
+
+
+#环境搭建
