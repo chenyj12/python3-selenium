@@ -1,11 +1,14 @@
+import os,sys
+curPath = os.path.abspath(os.path.dirname(__file__))
+Path = os.path.split(curPath)[0]
+sys.path.append(Path)
+
+import getcwd
 import unittest
 import time
 from HTMLTestRunner_cn import HTMLTestRunner
 from Base.sentMail import send_mail, new_file
-import os
-import getcwd
-import sys
-sys.path.append('../')
+
 
 test_dir = os.path.join(getcwd.get_cwd(), 'TestCases')
 discovery = unittest.defaultTestLoader.discover(test_dir, pattern='test*.py')

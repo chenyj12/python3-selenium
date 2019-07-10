@@ -2,6 +2,10 @@ import os.path
 from configparser import ConfigParser
 from selenium import webdriver
 from Base.log import log1
+import os,sys
+curPath = os.path.abspath(os.path.dirname(__file__))
+Path = os.path.split(curPath)[0]
+sys.path.append(Path)
 
 
 class BrowserEngine(object):

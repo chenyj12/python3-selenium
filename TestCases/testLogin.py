@@ -3,6 +3,10 @@
 @file: testLogin.py 
 @time: 2019/7/9 15:21 
 """
+import os,sys
+curPath = os.path.abspath(os.path.dirname(__file__))
+Path = os.path.split(curPath)[0]
+sys.path.append(Path)
 
 import unittest
 from Base.start import Start
