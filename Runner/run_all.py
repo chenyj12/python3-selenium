@@ -1,3 +1,5 @@
+
+'''以下增加是为了把上级目录加入搜索目录'''
 import os,sys
 curPath = os.path.abspath(os.path.dirname(__file__))
 Path = os.path.split(curPath)[0]

@@ -2,11 +2,6 @@ import os.path
 from configparser import ConfigParser
 from selenium import webdriver
 from Base.log import log1
-import os,sys
-curPath = os.path.abspath(os.path.dirname(__file__))
-Path = os.path.split(curPath)[0]
-sys.path.append(Path)
-
 
 class BrowserEngine(object):
     dir = os.path.dirname(os.path.abspath('.'))  # 当前文件相对路径获取方法

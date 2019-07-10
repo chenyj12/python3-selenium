@@ -1,8 +1,3 @@
-import os,sys
-curPath = os.path.abspath(os.path.dirname(__file__))
-Path = os.path.split(curPath)[0]
-sys.path.append(Path)
-
 import getcwd
 from Base.log import log1
 from selenium.common.exceptions import NoSuchElementException

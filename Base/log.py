@@ -1,12 +1,7 @@
-# -*- coding: UTF-8 -*-
-import os,sys
-curPath = os.path.abspath(os.path.dirname(__file__))
-Path = os.path.split(curPath)[0]
-sys.path.append(Path)
-
 import logging
 import time
 import getcwd
+import os
 
 
 def get_log(logger_name):
