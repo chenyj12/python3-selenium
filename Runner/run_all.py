@@ -24,4 +24,4 @@ if __name__ == '__main__':
         runner.run(discovery)
     f.close()
     # new_report = new_file(report_dir)
-    # send_mail(new_report)
+    # send_mail(new_report)   aa
