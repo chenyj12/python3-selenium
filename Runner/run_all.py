@@ -23,5 +23,5 @@ if __name__ == '__main__':
         runner = HTMLTestRunner(stream=f, title='测试报告', description='测试结果')
         runner.run(discovery)
     f.close()
-    new_report = new_file(report_dir)
-    send_mail(new_report)
+    # new_report = new_file(report_dir)
+    # send_mail(new_report)
