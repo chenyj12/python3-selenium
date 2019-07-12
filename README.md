@@ -11,3 +11,9 @@ python3+selenium ui自动化测试
 * Page 页面元素映射和页面对象 
 * run_all.py 测试运行脚本
 
+
+#requirements.txt 
+requirements.txt  获取方法：  项目根目录下运行：pip freeze > requirements.txt
+新环境中通过此文件可以直接安装模块
+在项目根目录下执行pip install -r requirements.txt
+
