@@ -24,8 +24,8 @@ class BrowserEngine(object):
             log1.info("Starting firefox browser.")
         elif browser == "Chrome":
             option = webdriver.ChromeOptions()
-            option.add_argument('disable-infobars')  # 去除浏览器的警告
-            # option.add_argument('headless')        #加载浏览器静默模式
+            # option.add_argument('disable-infobars')  # 去除浏览器的警告
+            option.add_argument('headless')        #加载浏览器静默模式
             driver = webdriver.Chrome(chrome_options=option)
             # driver = webdriver.Chrome(self.chrome_driver_path)
             log1.info("Starting Chrome browser.")

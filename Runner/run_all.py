@@ -8,7 +8,7 @@ sys.path.append(Path)
 import getcwd
 import unittest
 import time
-from HTMLTestRunner_cn import HTMLTestRunner
+from HTMLTestRunner_PY3 import HTMLTestRunner
 from Base.sentMail import send_mail, new_file
 
 
@@ -23,5 +23,5 @@ if __name__ == '__main__':
         runner = HTMLTestRunner(stream=f, title='测试报告', description='测试结果')
         runner.run(discovery)
     f.close()
-    # new_report = new_file(report_dir)
-    # send_mail(new_report)   aa
+    new_report = new_file(report_dir)
+    send_mail(new_report)
