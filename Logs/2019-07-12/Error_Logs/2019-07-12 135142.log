@@ -1,0 +1,5 @@
+2019-07-12 13:52:03,490 - selenium - ERROR - loginpage  - 46 - 登录失败
+2019-07-12 13:52:16,091 - selenium - ERROR - loginpage  - 46 - 登录失败
+2019-07-12 13:52:28,844 - selenium - ERROR - loginpage  - 46 - 登录失败
+2019-07-12 13:52:28,844 - selenium - ERROR - testLogin  - 48 - 测试用例执行失败：密码错误
+
